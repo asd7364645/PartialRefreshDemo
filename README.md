@@ -484,8 +484,7 @@ payload 的解释为：如果为null，则刷新item全部内容
 RecyclerView adapter默认的使用我就不在这里多说了。主要是局部刷新。
 
 今天的博客就说到这里，有什么增加的日后再补充~~
-
-
+博客原文：http://blog.csdn.net/asd7364645/article/details/54581920
 希望喜欢的小伙伴给个屎蛋（star）~~
 
 ----------
