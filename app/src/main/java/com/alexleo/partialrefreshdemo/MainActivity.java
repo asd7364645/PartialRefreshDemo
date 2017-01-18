@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.alexleo.partialrefreshdemo.act.LvAct;
+import com.alexleo.partialrefreshdemo.act.RvAct;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -26,10 +27,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.mLvBtn:
-                Intent intent = new Intent(this, LvAct.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(this, LvAct.class);
+                startActivity(intent1);
                 break;
             case R.id.mRvBtn:
+                Intent intent2 = new Intent(this, RvAct.class);
+                startActivity(intent2);
                 break;
         }
     }

@@ -15,10 +15,6 @@ public class DownLoadManager {
 
     private DownCallBack downCallBack;
 
-    public DownCallBack getDownCallBack() {
-        return downCallBack;
-    }
-
     public void setDownCallBack(DownCallBack downCallBack) {
         this.downCallBack = downCallBack;
     }
